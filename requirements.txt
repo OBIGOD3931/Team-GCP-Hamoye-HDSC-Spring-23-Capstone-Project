@@ -10,5 +10,4 @@ scikit-learn
 xgboost
 lightgbm
 catboost
-pickle
 PIL
