@@ -236,8 +236,7 @@ elif selected == "Team":
     st.header(':blue[List of Active Members]')
 
 
-    st.write("Here's a list of items with bullet points:")
-    st.markdown("""
+        st.markdown("""
                     - Adebesin Aramide
                     - Kayode Jesujana
                     - Obinna Nwachukwu
