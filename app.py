@@ -195,10 +195,10 @@ elif selected == 'Prediction':
 
     # Streamlit app
     st.markdown("## Electricity Class Prediction")
-    st.markdown("### This a multiclassification prediction of 'Low', 'Medium' and 'High'")
-    st.markdown("#### Range of Low: 3.5GWh - 51569.333GWh")
-    st.markdown("#### Range of Medium: 51569.333GWh - 180212.259GWh")
-    st.markdown("#### Range of High: 180212.259GWh - 180212.259GWh")
+    st.markdown("### This a multiclassification prediction of 'Low', 'Medium' and 'High.'")
+    st.markdown("#### Range of Low: 3.5GWh - 51,569.333GWh")
+    st.markdown("#### Range of Medium: 51,569.333GWh - 180,212.259GWh")
+    st.markdown("#### Range of High: 180,212.259GWh - 4,190,552.0GWh")
 
     
     # Input fields for user
