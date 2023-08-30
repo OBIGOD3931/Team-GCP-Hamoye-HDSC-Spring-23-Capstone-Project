@@ -195,6 +195,12 @@ elif selected == 'Prediction':
 
     # Streamlit app
     st.markdown("## Electricity Class Prediction")
+    st.markdown("### This a multiclassification prediction of 'Low', 'Medium' and 'High'")
+    st.markdown("#### Range of Low: 3.5GWh - 51569.333GWh")
+    st.markdown("#### Range of Medium: 51569.333GWh - 180212.259GWh")
+    st.markdown("#### Range of High: 180212.259GWh - 180212.259GWh")
+
+    
     # Input fields for user
     location = st.selectbox("Select Location", df1['Location'].unique())
     year = st.number_input("Select Year", value=2023, step=1)
